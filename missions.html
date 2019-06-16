@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Explore Space with SpaceX</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/117c523adf.js"></script>
+    </head>
+    
+    <body>
+        <header>
+        </header>
+        
+        <main>
+            <!-- Overlay for menu-->
+            <div class="overlay" id="myNav">
+                <!-- Button to close overlay -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <!-- Overlay content -->
+                  <nav class="overlay-content">
+                    <a href="/">HOME</a>
+                    <a href="/launches.html">LAUNCHES</a>
+                    <a href="/missions.html" class="active">MISSIONS</a>
+                    <a href="/history.html">HISTORICAL EVENTS</a>
+                    <a href="/spacex.html">SPACEX</a>
+                  </nav>
+                
+                
+            </div>
+            
+            <div class="main-background subpage">
+                <div class="menuarea">
+                    <p onclick="openNav()"><i class="fas fa-bars"></i> Menu</p>
+                </div>
+                
+                <div class="subpage-cirle">
+                        <hr class="subpage-circle-line">
+                </div>
+                
+                <div class="main-content">
+                    <div class="title">
+                        <h3>SpaceX</h3>
+                        <h1>MISSIONS</h1>
+                    </div>
+                </div>
+                
+                <div class="bottom-row">
+                    <div class="left">
+                    <p>SpaceX - Space travel for everyone.</p>
+                    </div>
+                    
+                    <div class="middle">
+                    <p class="scroll">SCROLL DOWN <br /><i class="fas fa-chevron-down"></i></p>
+                    </div>
+                    
+                    <div class="right">
+                    <img class="logo" src="img/logo.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="missionPage">
+                <div class="content-container mission" id="mission">
+                    
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="content-container">
+                    <img class="footer-logo" src="img/logo.png">
+                    <nav class="footer-nav">
+                        <ul class="footer-list">
+                            <li><a href="https://twitter.com/spacex">TWITTER</a></li>
+                            <li><a href="https://www.youtube.com/spacex">YOUTUBE</a></li>
+                            <li><a href="https://www.flickr.com/photos/spacex">FLICKR</a></li>
+                            <li><a href="https://www.instagram.com/spacex/">INSTAGRAM</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <p class="copyright-text">© 2019 SPACE EXPLORATION TECHNOLOGIES CORP.</p>
+                </div>
+            </div>
+            <script src="js/menu.js"></script>
+            <script src="js/missions.js"></script>
+        </footer>
+    </body>
+</html>
