@@ -139,7 +139,7 @@ function otherLaunches(result) {
    
     for(i = 0; i < 10; i++) {
         var h1 = document.createElement("h1");
-        h1.innerHTML = '<a href="/specific-launch.html?flightNumber=' + launchArray[i].flight_number + '">' + launchArray[i].mission_name + '</a>';
+        h1.innerHTML = '<a href="/exam/specific-launch.html?flightNumber=' + launchArray[i].flight_number + '">' + launchArray[i].mission_name + '</a>';
         
         launchContainer.appendChild(h1);
     }
