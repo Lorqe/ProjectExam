@@ -279,6 +279,7 @@ Launch.html specific
     height: 300px;
     width: auto;
     margin: 10px;
+    border-radius: 25px;
 }
 
 .imgContainer:first-child {
@@ -553,6 +554,7 @@ label {
     border: 1px solid #fff;
     border-radius: 25px;
     height: 46px;
+    margin-top: 40px;
 }
 
 .formBtn:hover {
@@ -826,6 +828,15 @@ footer {
     
     .rocketPage {
         padding: 0;
+    }
+    
+    .form-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .company h3 {
+        padding: 0 20px;    
     }
 }
 
